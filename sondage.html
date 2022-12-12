@@ -4,6 +4,7 @@
         <title>One Piece - Sondage du jour</title>
         <meta charset="utf-8"/>
         <link rel="icon" href="skull_logo.ico">
+        <link rel="javascript" href="script.js">
         <!--<link rel="stylesheet" href="css/style.css">-->
         <!-- COMMENTAIRE -->
     </head>
@@ -36,6 +37,8 @@
             <label for="textbox">Pourquoi ?</label> <br>
             <textarea name="raison" rows="5" cols="45">Qu'est-ce qui vous fait choisir ce personnage ?</textarea>
         </form>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/Spinning_Coin.gif" alt="Piece qui tourne (easter egg)"></a>
+        <audio id="easter_egg"  src="audio/easter_egg.mp3" preload="auto"></audio>
+        <a href="javascript:playSound('easter_egg');"><img src="img/Spinning_Coin.gif" alt="Piece qui tourne (easter egg)" onclick="document.getElementById('easter_egg').play();"></a>
+        
     </body>
 </html>
