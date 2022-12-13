@@ -6,7 +6,6 @@
         <meta name="author" content="Enzo HOURLAY & Romain MARTINEZ">
         <meta name="description" content="Cette page est un sondage">
         <link rel="icon" href="skull_logo.ico">
-        <link rel="javascript" href="script.js">
         <!--<link rel="stylesheet" href="css/style.css">-->
         <!-- COMMENTAIRE -->
     </head>
@@ -23,6 +22,8 @@
         <form action="" method="post" enctype="text/plain">
             <label for="pseudo">Pseudo</label>
             <input id="pseudo" type="text" name="pseudo" value=" "> <br>
+            <label for="e-mail">E-Mail</label>
+            <input id="pseudo" type="e-mail" name="e-mail" value=" " placeholder="xyz@adresse.com"> <br>
             <label for="persoFavori">Qui est le meilleur personnage de l'équipage selon toi :</label>
             <select id="persoFavori" name="persoFavori"> <!--Choix entre les divers options-->
                 <option>Luffy</option>
@@ -37,7 +38,8 @@
                 <option>Jimbei</option>
             </select> <br>
             <label for="textbox">Pourquoi ?</label> <br>
-            <textarea name="raison" rows="5" cols="45" placeholder="Qu'est-ce qui vous fait choisir ce personnage ?"></textarea> <!--Saisit de texte-->
+            <textarea name="raison" rows="5" cols="45" placeholder="Qu'est-ce qui vous fait choisir ce personnage ?"></textarea> <br> <!--Saisit de texte-->
+            <input type="submit" value="Envoyer">
         </form>
         <!--Cliquer sur la pièce est a vos risques et périls-->
         <audio id="easter_egg"  src="audio/easter_egg.mp3" preload="auto"></audio>
