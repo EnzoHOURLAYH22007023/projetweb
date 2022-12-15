@@ -36,7 +36,8 @@ body {
 }
 
 .menu a.theories {
-    background-image: url("../img/nono.gif");
+    background: url("../img/nono.gif") center;
+    background-size: cover;
 }
 
 /*plus tard*/
