@@ -1,16 +1,23 @@
-h1 {
+.test {
+    background-image: url("../img/aaaa.jpg");
+    background-size: contain;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.test h1 {
     display : flex;
     justify-content: center;
     align-items: center;
 }
 
-h3 {
+.test h3 {
     display : flex;
     justify-content: center;
     align-items: center;
 }
 
-img {
+.test img {
     display:block;
     margin: auto;
     width: 8.5cm;
@@ -18,8 +25,10 @@ img {
 }
 
 #arrow {
-    display: block;
-    margin-right: inherit;
+    display: flex;
+    align-content: flex-end;
     width: 0.8cm;
     height: auto;
+    position: fixed;
 }
+
