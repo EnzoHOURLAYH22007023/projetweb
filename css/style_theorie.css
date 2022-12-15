@@ -1,0 +1,15 @@
+h1 {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.65cm;
+}
+
+img {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.65cm;
+    width: 5cm;
+    height: auto;
+}
