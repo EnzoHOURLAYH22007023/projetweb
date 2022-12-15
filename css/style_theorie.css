@@ -1,15 +1,17 @@
+body {
+    background: url("../img/bg_ocean3.jpg") center fixed;
+    background-size: cover;
+}
+
 h1 {
     display : flex;
-    justify-content: center;
     align-items: center;
     font-size: 0.65cm;
 }
 
 img {
-    display : flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.65cm;
-    width: 5cm;
+    display: block;
+    margin: auto;
+    width: 7cm;
     height: auto;
 }
