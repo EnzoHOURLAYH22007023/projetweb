@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "onepiece";
+    src: url("OPFont.ttf") fromat("ttf");
+}
+
 body {
     background: url("../img/bg_ocean3.jpg") center fixed;
     background-size: cover;
+    size: cover;
 }
 
 
@@ -11,12 +17,13 @@ body {
     justify-content: space-evenly;
 }
 
-.menu a {            /* Transformation en block */
+.menu a {       
+    font-family: "onepiece";
     min-width: 120px;
-    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
-    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    margin: 0.5em;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4em 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
     text-align: center;           /* Centrage du texte */   
-    background-size: cover;    /* Couleur d'arrière-plan */
+    background-size: cover;
     color: #fff;                  /* Couleur du texte */
     text-decoration: none;        /* Suppression du soulignement */
     border: 1px solid #fff;       /* Ajout d'une bordure */
@@ -24,7 +31,7 @@ body {
 }
 
 .menu a.accueil{
-    background-image: url("../img/LuffyWano.jpg");
+    background-image: url("../img/luffist_static.png");
 }
 
 .menu a.accueil:hover {
@@ -32,10 +39,16 @@ body {
 }
 
 .menu a.sondage {
-    background-image: url("../img/nono.png");
+    background-image: url("../img/OPGOLD.gif");
+    background-size: cover;
 }
 
 .menu a.theories {
+    background: url("../img/nono_static.png") center;
+    background-size: cover;
+}
+
+.menu a.theories:hover {
     background: url("../img/nono.gif") center;
     background-size: cover;
 }
