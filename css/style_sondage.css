@@ -3,22 +3,29 @@ body {
     background-size: cover;
 }
 
-ul {
+
+.menu {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
-li {
-    display: flex;
-    align-content: space-between;
-
+.menu a {            /* Transformation en block */
+    min-width: 120px;
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: #1ABC9C;    /* Couleur d'arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;
 }
 
-a {
-    border-color: grey;
-    border-width: 20px;
-}
 
+
+/*plus tard*/
 h1 {
     display : flex;
     justify-content: center;
@@ -42,8 +49,3 @@ form {
     width: 20px;
     height: 20px;
 }
-/*
-img {
-    width: 20px;
-    height: 20px;
-}*/
