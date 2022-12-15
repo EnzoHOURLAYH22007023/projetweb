@@ -20,13 +20,13 @@ body {
 .menu a {       
     font-family: "onepiece";
     min-width: 120px;
-    margin: 0.5em;               /* Marges externes (1 valeurs = 4 directions) */
-    padding: 0.4em 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
-    text-align: center;           /* Centrage du texte */   
+    margin: 0.5em;
+    padding: 0.4em 0;           
+    text-align: center;             
     background-size: cover;
-    color: #fff;                  /* Couleur du texte */
-    text-decoration: none;        /* Suppression du soulignement */
-    border: 1px solid #fff;       /* Ajout d'une bordure */
+    color: #fff;                
+    text-decoration: none; 
+    border: 1px solid #ffd700;
     border-radius: 4px;
 }
 
@@ -39,6 +39,10 @@ body {
 }
 
 .menu a.sondage {
+    background-image: url("../img/OPGOLD_static.png");
+}
+
+.menu a.sondage:hover {
     background-image: url("../img/OPGOLD.gif");
     background-size: cover;
 }
