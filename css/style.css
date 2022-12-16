@@ -119,6 +119,7 @@ form {
 .test strong.rôle:hover { /*Permet mettre changer la couleur du texte quand ont met la souris dessus*/
     color:firebrick;
 }
+
 h2, p, q {
     padding-left: 5%;
     padding-right: 5%;
