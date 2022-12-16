@@ -83,12 +83,11 @@ body {
     height: auto;
 }
 
-#arrow {
-    display: flex;
-    align-content: flex-end;
-    width: 0.8cm;
-    height: auto;
+.back_arrow{
+    width: 50px;
     position: fixed;
+    top: 0;
+    right: 0;
 }
 
 form {
@@ -102,7 +101,7 @@ form {
     margin-right : 100px;
 }
 
-.piece {
+.piece img{
     display: flex;
     justify-content: flex-end;
     width: 20px;
