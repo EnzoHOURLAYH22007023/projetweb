@@ -127,7 +127,6 @@ h2, p, q {
     padding-right: 5%;
 }
 
-<<<<<<< Updated upstream
 q.fin {
     padding-bottom: 5%;
 }
@@ -151,8 +150,4 @@ q.fin {
     margin-left: 10%;
     margin-right: 10%;
 }
-=======
-.fin {
-    padding-top: -5px;
->>>>>>> Stashed changes
 }
