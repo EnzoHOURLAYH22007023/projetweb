@@ -108,3 +108,10 @@ form {
     width: 20px;
     height: 20px;
 }
+
+.a img {
+    display:block;
+    margin: auto;
+    width: 85%;
+    height: auto;
+}
