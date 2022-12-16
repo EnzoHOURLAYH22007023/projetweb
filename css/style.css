@@ -15,15 +15,15 @@ body {
     justify-content: space-evenly;
 }
 
-.menu a {       
+.menu a {
     font-family: "onepiece";
     min-width: 120px;
     margin: 0.5em;
-    padding: 0.4em 0;           
-    text-align: center;             
+    padding: 0.4em 0;
+    text-align: center;
     background-size: cover;
-    color: #fff;                
-    text-decoration: none; 
+    color: #fff;
+    text-decoration: none;
     border: 1px solid #ffd700;
     border-radius: 4px;
 }
@@ -53,4 +53,58 @@ body {
 .menu a.theories:hover {
     background: url("../img/nono.gif") center;
     background-size: cover;
+}
+
+.test {
+    background-image: url("../img/aaaa.jpg");
+    background-size: contain;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.test h1 {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test h3 {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.test img {
+    display:block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+#arrow {
+    display: flex;
+    align-content: flex-end;
+    width: 0.8cm;
+    height: auto;
+    position: fixed;
+}
+
+form {
+    display : flex;
+    background-image: url("../img/Test.jpg");
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left : 100px;
+    margin-right : 100px;
+}
+
+.piece {
+    display: flex;
+    justify-content: flex-end;
+    width: 20px;
+    height: 20px;
 }
