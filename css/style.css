@@ -114,15 +114,30 @@ h2, p, q {
     right: 0;
 }
 
+.titre {
+    position: relative;
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .sondage {
     display: flex;
     flex-direction: column;
 }
 
+.sondage img {
+    display: flex;
+}
+
 .sondage h1 {
     display: flex;
-    background: url("../img/oldscroll.jpg") center;
-    align-content: center;
+    justify-content: center;
 }
 
 .sondage form {
