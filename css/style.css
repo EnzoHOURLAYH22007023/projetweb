@@ -145,4 +145,9 @@ q.fin {
     margin-top: 5%;
     padding: 7%;
     }
+    .test {
+    background-size: contain;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 }
