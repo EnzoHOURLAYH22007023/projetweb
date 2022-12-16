@@ -56,7 +56,7 @@ body {
 }
 
 .test {
-    font-family: "onepiece"; 
+    font-family: "onepiece";
     background-image: url("../img/aaaa.jpg");
     background-size: contain;
     margin-left: 25%;
@@ -67,6 +67,7 @@ body {
     display : flex;
     justify-content: center;
     align-items: center;
+    padding-top: 3%
 }
 
 .test h3 {
@@ -114,4 +115,17 @@ form {
     margin: auto;
     width: 85%;
     height: auto;
+}
+
+.test strong.rôle:hover { /*Permet mettre changer la couleur du texte quand ont met la souris dessus*/
+    color:firebrick;
+}
+
+h2, p, q {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+q.fin {
+    padding-bottom: 5%;
 }
