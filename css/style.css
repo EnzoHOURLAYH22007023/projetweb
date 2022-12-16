@@ -17,15 +17,16 @@ body {
 
 .menu a {
     font-family: "onepiece";
-    min-width: 120px;
-    margin: 0.5em;
-    padding: 0.4em 0;
+    min-width: 22%;
+    margin: 1%;
+    padding: 1%;
     text-align: center;
     background-size: cover;
     color: #fff;
     text-decoration: none;
     border: 1px solid #ffd700;
     border-radius: 4px;
+    font-size: 300%;
 }
 
 .menu a.accueil{
@@ -144,6 +145,7 @@ q.fin {
     margin: 1%;
     margin-top: 5%;
     padding: 7%;
+    font-size: 150%;
     }
     .test {
     background-size: contain;
