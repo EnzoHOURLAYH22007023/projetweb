@@ -66,6 +66,7 @@ body {
     display : flex;
     justify-content: center;
     align-items: center;
+    padding-top: 3%
 }
 
 .test h3 {
@@ -118,3 +119,9 @@ form {
 .test strong.rôle:hover { /*Permet mettre changer la couleur du texte quand ont met la souris dessus*/
     color:firebrick;
 }
+h2, p, q {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
