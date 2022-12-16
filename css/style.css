@@ -72,6 +72,13 @@ body {
     font-size: 200%;   
 }
 
+.a h1 {
+    display : flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 150%;   
+}
+
 .test h3 {
     display : flex;
     justify-content: center;
