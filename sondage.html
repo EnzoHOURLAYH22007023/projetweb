@@ -16,30 +16,31 @@
             <a href="sondage.html" class="sondage">Sondage</a>
             <a href="théories.html" class="theories">Théories</a>
         </nav>
-
-        <h1>Sondage de popularité</h1>
-        <form action="mailto:enzo.hourlay@etu.univ-amu.fr" method="post" enctype="text/plain">
-            <label for="pseudo">Pseudo</label>
-            <input id="pseudo" type="text" name="pseudo" placeholder="xXx_D4rkLuffy_xXx" required="required" value=""> <br>
-            <label for="e-mail">E-mail</label>
-            <input id="e-mail" type="email" name="e-mail" placeholder="example@adresse.com" value=""> <br>
-            <label for="persoFavori">Qui est le meilleur personnage de l'équipage selon toi :</label>
-            <select id="persoFavori" name="persoFavori"> <!--Choix entre les divers options-->
-                <option>Luffy</option>
-                <option>Zoro</option>
-                <option>Usopp</option>
-                <option>Sanji</option>
-                <option>Nami</option>
-                <option>Chopper</option>
-                <option>Robin</option>
-                <option>Francky</option>
-                <option>Brook</option>
-                <option>Jimbei</option>
-            </select> <br>
-            <label for="textbox">Pourquoi ?</label> <br>
-            <textarea id="textbox" name="raison" rows="5" cols="45" placeholder="Qu'est-ce qui vous fait choisir ce personnage ?"></textarea> <br> <!--Saisit de texte-->
-            <input type="submit" value="Envoyer">
-        </form>
+        <section class="sondage">
+            <h1>Sondage de popularité</h1>
+            <form action="mailto:enzo.hourlay@etu.univ-amu.fr" method="post" enctype="text/plain">
+                <label for="pseudo">Pseudo</label>
+                <input id="pseudo" type="text" name="pseudo" placeholder="xXx_D4rkLuffy_xXx" required="required" value=""> <br>
+                <label for="e-mail">E-mail</label>
+                <input id="e-mail" type="email" name="e-mail" placeholder="example@adresse.com" value=""> <br>
+                <label for="persoFavori">Qui est le meilleur personnage de l'équipage selon toi :</label>
+                <select id="persoFavori" name="persoFavori"> <!--Choix entre les divers options-->
+                    <option>Luffy</option>
+                    <option>Zoro</option>
+                    <option>Usopp</option>
+                    <option>Sanji</option>
+                    <option>Nami</option>
+                    <option>Chopper</option>
+                    <option>Robin</option>
+                    <option>Francky</option>
+                    <option>Brook</option>
+                    <option>Jimbei</option>
+                </select> <br>
+                <label for="textbox">Pourquoi ?</label> <br>
+                <textarea id="textbox" name="raison" rows="5" cols="45" placeholder="Qu'est-ce qui vous fait choisir ce personnage ?"></textarea><br> <!--Saisit de texte-->
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
         <!--Cliquer sur la pièce est a vos risques et périls-->
         <audio id="easter_egg"  src="audio/easter_egg.mp3" preload="auto"></audio>
         <a href="javascript:playSound('easter_egg');" class="piece"><img src="img/Spinning_Coin.gif" alt="Piece qui tourne (easter egg)" onclick="document.getElementById('easter_egg').play();"></a>

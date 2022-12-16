@@ -85,29 +85,8 @@ body {
     height: auto;
 }
 
-.back_arrow{
-    width: 50px;
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-
-form {
-    display : flex;
-    background-image: url("../img/Test.jpg");
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-left : 100px;
-    margin-right : 100px;
-}
-
-.piece img{
-    display: flex;
-    justify-content: flex-end;
-    width: 20px;
-    height: 20px;
+.test strong.rôle:hover { /*Permet mettre changer la couleur du texte quand ont met la souris dessus*/
+    color:firebrick;
 }
 
 .a img {
@@ -117,15 +96,47 @@ form {
     height: auto;
 }
 
-.test strong.rôle:hover { /*Permet mettre changer la couleur du texte quand ont met la souris dessus*/
-    color:firebrick;
-}
-
 h2, p, q {
     padding-left: 5%;
     padding-right: 5%;
 }
 
-q.fin {
-    padding-bottom: 5%;
+.fin {
+    margin-bottom: 5%;
+}
+
+.back_arrow{
+    width: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.sondage {
+    display: flex;
+    flex-direction: column;
+}
+
+.sondage h1 {
+    display: flex;
+    background: url("../img/oldscroll.jpg") center;
+    align-content: center;
+}
+
+.sondage form {
+    display: flex;
+    background: url("../img/cadre.jpg");
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left : 10%;
+    margin-right : 10%;
+    padding: 10%;
+}
+
+.piece img{
+    display: flex;
+    justify-content: flex-end;
+    width: 20px;
+    height: 20px;
 }
