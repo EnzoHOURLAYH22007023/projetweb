@@ -5,7 +5,7 @@ body {
 
 @font-face {
     font-family: "onepiece";
-    src: url("OPFont.ttf") fromat("ttf");
+    src: url(OPFont.ttf);
 }
 
 .menu {
@@ -56,6 +56,7 @@ body {
 }
 
 .test {
+    font-family: "onepiece"; 
     background-image: url("../img/aaaa.jpg");
     background-size: contain;
     margin-left: 25%;
