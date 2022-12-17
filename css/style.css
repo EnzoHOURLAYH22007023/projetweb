@@ -75,7 +75,7 @@ body {
     font-size: 200%;   
 }
 
-.a h1 {
+.theories h1 {
     display : flex;
     justify-content: center;
     align-items: center; 
@@ -96,6 +96,13 @@ body {
     display:block;
     margin: auto;
     width: 100%;
+    height: auto;
+}
+
+.theories img {
+    display:block;
+    margin: auto;
+    width: 55%;
     height: auto;
 }
 
@@ -188,5 +195,8 @@ h2, p, q {
     }
     .autrePerso img, .Popu img {
     width: 75%;
+    }
+    .theories img {
+    width: 90%;
     }
 }
