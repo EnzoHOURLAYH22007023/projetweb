@@ -187,19 +187,23 @@ body {
 .page-container {
     position: relative;
     min-height: 100vh;
-  }
-  
-.content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
 }
+  
+/*.content-wrap {
+    padding-bottom: 2.5rem;  
+}*/
   
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;            /* Footer height */
+    /*height: 2.5rem;*/
+    background-color: gray;    
 }
 
+.footer img{
+    
+}
 @media screen and (max-width: 600px) {
     /* Style appliqué uniquement sur les écrans de largeur < 600px */
     .back_arrow {
@@ -230,6 +234,7 @@ body {
     .theories img {
     width: 90%;
     }
+
     .sondage form {
         margin-left: 0%;
         margin-right: 0%;
