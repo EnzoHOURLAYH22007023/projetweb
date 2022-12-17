@@ -138,40 +138,32 @@ body {
     right: 0;
 }
 
-.titre{
-
-}
-
-.titre img{
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    height: auto;
-}
-
-.titre h1 {
-    position: absolute;
-    top: 5%;
-    left: 25%;
-}
-
 .sondage {
     display: flex;
     flex-direction: column;
 }
 
-.sondage form {
+.sondage h1{
     display: flex;
-    background: url("../img/cadre.jpg") center ;
-    background-size: cover;
-    background-repeat: no-repeat;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 7%;
+    font-size: 200%;
 }
 
-.piece img{
+.sondage form {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 150%;
+    background-image: url("../img/formbg.jpg") ;
+    background-size: cover;
+    background-position: center;
+    border: solid 5px;
+    border-radius: 1em;
+    padding: 3%;
+}
+
+.easter img{
     display: flex;
     justify-content: flex-end;
     width: 20px;
