@@ -75,7 +75,7 @@ body {
     display : flex;
     justify-content: center;
     align-items: center; 
-    font-size: 150%;   
+    font-size: 120%;  
 }
 
 .prez h3 {
@@ -109,8 +109,8 @@ h2, p, q {
     padding-right: 5%;
 }
 
-.fin {
-    margin-bottom: 5%;
+.jimbei {
+    padding-bottom: 5%;
 }
 
 .back_arrow{
