@@ -63,12 +63,39 @@ body {
     margin-right: 25%;
 }
 
-.prez h1 {
+.prez h1, h3 {
     display : flex;
     justify-content: center;
     align-items: center;
     padding-top: 3%;
-    font-size: 200%;   
+    font-size: 250%;   
+}
+
+/*.prez h3 {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}*/
+
+.prez p{
+    font-size: 165%;
+}
+
+.prez blockquote{
+    font-size: 140%;
+}
+
+.prez img {
+    display:block;
+    margin: auto;
+    width: 70%;
+    height: auto;
+}
+
+.prez strong.rôle:hover { /*Permet mettre changer la couleur du texte quand ont met la souris dessus*/
+    color:firebrick;
 }
 
 .a h1 {
@@ -76,25 +103,6 @@ body {
     justify-content: center;
     align-items: center; 
     font-size: 150%;   
-}
-
-.prez h3 {
-    display : flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-}
-
-.prez img {
-    display:block;
-    margin: auto;
-    width: 100%;
-    height: auto;
-}
-
-.prez strong.rôle:hover { /*Permet mettre changer la couleur du texte quand ont met la souris dessus*/
-    color:firebrick;
 }
 
 .a img {
@@ -118,10 +126,6 @@ h2, p, q {
     position: fixed;
     top: 0;
     right: 0;
-}
-
-.titre{
-
 }
 
 .titre img{
