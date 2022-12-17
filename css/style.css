@@ -156,6 +156,12 @@ body {
     border: solid 5px;
     border-radius: 1em;
     padding: 3%;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.footer {
+
 }
 
 .easter img{
@@ -190,5 +196,9 @@ body {
     }
     .theories img {
     width: 90%;
+    }
+    .sondage form {
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
