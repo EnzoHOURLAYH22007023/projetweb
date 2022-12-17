@@ -63,34 +63,46 @@ body {
     margin-right: 25%;
 }
 
-.prez h1, h3 {
+.autrePerso h2, .Popu h2 {
+    padding-top: 3%; 
+}
+
+.prez h1 {
     display : flex;
     justify-content: center;
     align-items: center;
     padding-top: 3%;
-    font-size: 250%;   
+    font-size: 200%;   
 }
 
-/*.prez h3 {
+.theories h1 {
+    display : flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 160%;   
+}
+
+.prez h3 {
     display : flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: auto;
-}*/
-
-.prez p{
-    font-size: 165%;
-}
-
-.prez blockquote{
-    font-size: 140%;
+    font-size: 130%;
+    padding-top: 5%; 
 }
 
 .prez img {
     display:block;
     margin: auto;
-    width: 70%;
+    width: 100%;
+    height: auto;
+}
+
+.theories img {
+    display:block;
+    margin: auto;
+    width: 55%;
     height: auto;
 }
 
@@ -98,14 +110,7 @@ body {
     color:firebrick;
 }
 
-.a h1 {
-    display : flex;
-    justify-content: center;
-    align-items: center; 
-    font-size: 150%;   
-}
-
-.a img {
+.autrePerso img, .Popu img {
     display:block;
     margin: auto;
     width: 60%;
@@ -181,7 +186,10 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     }
-    .a img {
+    .autrePerso img, .Popu img {
     width: 75%;
+    }
+    .theories img {
+    width: 90%;
     }
 }
