@@ -205,7 +205,7 @@ body {
 
 .footer img {
     width: 50px;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 @media screen and (max-width: 600px) {
