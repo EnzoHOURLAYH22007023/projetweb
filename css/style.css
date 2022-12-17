@@ -100,7 +100,7 @@ body {
 .a img {
     display:block;
     margin: auto;
-    width: 85%;
+    width: 60%;
     height: auto;
 }
 
@@ -180,5 +180,8 @@ h2, p, q {
     background-size: contain;
     margin-left: 10%;
     margin-right: 10%;
-}
+    }
+    .a img {
+    width: 75%;
+    }
 }
