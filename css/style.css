@@ -56,7 +56,7 @@ body {
     background-size: cover;
 }
 
-.test {
+.prez {
     font-family: "onepiece";
     background-image: url("../img/aaaa.jpg");
     background-size: contain;
@@ -64,7 +64,7 @@ body {
     margin-right: 25%;
 }
 
-.test h1 {
+.prez h1 {
     display : flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +79,7 @@ body {
     font-size: 150%;   
 }
 
-.test h3 {
+.prez h3 {
     display : flex;
     justify-content: center;
     align-items: center;
@@ -87,14 +87,14 @@ body {
     height: auto;
 }
 
-.test img {
+.prez img {
     display:block;
     margin: auto;
     width: 100%;
     height: auto;
 }
 
-.test strong.rôle:hover { /*Permet mettre changer la couleur du texte quand ont met la souris dessus*/
+.prez strong.rôle:hover { /*Permet mettre changer la couleur du texte quand ont met la souris dessus*/
     color:firebrick;
 }
 
@@ -180,7 +180,7 @@ h2, p, q {
     padding: 7%;
     font-size: 150%;
     }
-    .test {
+    .prez {
     background-size: contain;
     margin-left: 10%;
     margin-right: 10%;
