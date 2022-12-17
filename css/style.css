@@ -117,9 +117,14 @@ body {
     height: auto;
 }
 
-.prez h2, p, q {
+.prez h2, .prez p {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.theories p, .autrePerso p, .autrePerso h2, .Popu p, .Popu h2 {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .jimbei {
