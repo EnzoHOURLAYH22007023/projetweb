@@ -79,7 +79,7 @@ body {
     display : flex;
     justify-content: center;
     align-items: center; 
-    font-size: 160%;   
+    font-size: 200%;   
 }
 
 .prez h3 {
@@ -99,13 +99,6 @@ body {
     height: auto;
 }
 
-.theories img {
-    display:block;
-    margin: auto;
-    width: 55%;
-    height: auto;
-}
-
 .prez strong.rôle:hover { /*Permet mettre changer la couleur du texte quand ont met la souris dessus*/
     color:firebrick;
 }
@@ -119,7 +112,20 @@ body {
 
 .miseEnPage {
     display: flex;
-    flex-direction: row;
+    margin: 5%;
+    margin-top: 6%;
+}
+
+.theories p {
+    font-size: 130%;
+    margin-right: 8%;
+    margin-top: 8%;
+}
+
+.theories img {
+    width: 200%;
+    height: auto;
+    min-width: 40%;
 }
 
 .prez h2, .prez p {
@@ -127,7 +133,7 @@ body {
     padding-right: 5%;
 }
 
-.theories p, .autrePerso p, .autrePerso h2, .Popu p, .Popu h2 {
+.autrePerso p, .autrePerso h2, .Popu p, .Popu h2 {
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -183,6 +189,7 @@ body {
     top: 0;
     right:0;
     }
+    
     .menu a {
     min-width: 10%;
     margin: 1%;
@@ -190,15 +197,26 @@ body {
     padding: 7%;
     font-size: 150%;
     }
+    
     .prez {
     background-size: contain;
     margin-left: 10%;
     margin-right: 10%;
     }
+    
     .autrePerso img, .Popu img {
     width: 75%;
     }
+    
     .theories img {
     width: 90%;
+    }
+    
+    .theories p {
+    font-size: 95%;
+    }
+    
+    .theories img {
+    min-width: 50%; 
     }
 }
