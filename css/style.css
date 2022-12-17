@@ -99,7 +99,7 @@ body {
     color:firebrick;
 }
 
-.a img {
+.autrePerso img, .Popu img {
     display:block;
     margin: auto;
     width: 60%;
@@ -182,7 +182,7 @@ h2, p, q {
     margin-left: 10%;
     margin-right: 10%;
     }
-    .a img {
+    .autrePerso img, .Popu img {
     width: 75%;
     }
 }
