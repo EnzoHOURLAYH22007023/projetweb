@@ -251,4 +251,7 @@ body {
     .theories img {
     min-width: 50%; 
     }
+    .footer img {
+    width: 35px;
+    }
 }
