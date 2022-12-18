@@ -51,6 +51,13 @@ body {
     margin: 1%;
 }
 
+.back_arrow{
+    width: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
 .page-container {
     position: relative;
     min-height: 100vh;
