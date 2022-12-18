@@ -117,7 +117,12 @@ body {
 }
 
 .article h2 {
-    padding-top: 3%; 
+    padding-top: 3%;
+    font-size: 200%;
+}
+
+.article p {
+    font-size: 150%;
 }
 
 .article p, .article h2 {
