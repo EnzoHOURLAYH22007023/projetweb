@@ -3,28 +3,12 @@ body {
     background-size: cover;
 }
 
-/*.titreMajeure {
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.titreMajeure img {
-    position: absolute;
-    top: 10%;
-    width: 50%;
-}
-
-.titreMajeure h1,h2,h3{
-    position: relative;
-}*/
-
 .prez {
     display: flex;
     flex-direction: column;
 }
 
-.prez h1{
+h1 { 
     display: flex;
     justify-content: center;
     font-size: 300%;
@@ -90,12 +74,40 @@ body {
     right: 0;
 }
 
+.sondage form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 0;
+    align-items: center;
+}
+
+.sondage select {
+    max-width: 77px;
+}
+
+.sondage input{
+    max-width: 180px;
+}
+
+.sondage textarea {
+    max-width: 300px;
+}
+
+.sondage input,select,textarea {
+    border-radius: 10px;
+}
+
+.sondage input:hover,select:hover,textarea:hover {
+    background-color: blue;
+}
+
 .theories {
     background: url(../img/Trésor.PNG);
     background-size: cover;
     margin-left: 15%;
     margin-right: 15%;
-    border-radius: 15%;
+    border-radius: 10px;
 }
 
 .theories h1 {
@@ -107,6 +119,7 @@ body {
 .theories p {
     font-size: 200%;
 }
+
 
 .theories img {
     position: absolute;
