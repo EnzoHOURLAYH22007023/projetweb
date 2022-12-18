@@ -15,8 +15,9 @@
         <a id="haut_de_page"></a> <!--Ancrage pour renvoyer en haut de la page-->
         <section class="page-container">
             <section class="content-wrap">
-                <button onclick="setActiveStyleSheet('default'); return false;">style1</button>
-                <button onclick="setActiveStyleSheet('alternate'); return false;">style2</button>
+                <button onclick="setActiveStyleSheet('default'); return false;">style1</button> <!--bouton pour changer entre les styles -->
+                <button onclick="setActiveStyleSheet('alternate'); return false;">style2</button><!--le code utilise des cookies donc pour garder le même style 
+                                                                                                    lors de la navigation il passer par le site et non par file://-->
                 <nav class="menu"> <!--Menu de navigation entre les divers page-->
                     <a href="index.html" class="Maccueil" id="active">Accueil</a>
                     <a href="sondage.html" class="Msondage">Sondage</a>
