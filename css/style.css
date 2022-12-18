@@ -120,10 +120,19 @@ body {
     padding-top: 3%; 
 }
 
-.miseEnPage {
-    display: flex;
-    margin: 5%;
-    margin-top: 6%;
+.autrePerso p, .autrePerso h2, .Popu p, .Popu h2 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.back_arrow{
+    width: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.theories {
 }
 
 .theories h1 {
@@ -134,7 +143,7 @@ body {
 }
 
 .theories p {
-    font-size: 130%;
+    font-size: 150%;
     margin-right: 8%;
     margin-top: 8%;
 }
@@ -145,17 +154,10 @@ body {
     min-width: 40%;
 }
 
-.autrePerso p, .autrePerso h2, .Popu p, .Popu h2 {
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-
-.back_arrow{
-    width: 50px;
-    position: fixed;
-    top: 0;
-    right: 0;
+.miseEnPage {
+    display: flex;
+    margin: 5%;
+    margin-top: 6%;
 }
 
 .sondage {
