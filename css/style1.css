@@ -109,18 +109,18 @@ body {
     color:firebrick;
 }
 
-.autrePerso img, .Popu img {
+.article img {
     display:block;
     margin: auto;
     width: 60%;
     height: auto;
 }
 
-.autrePerso h2, .Popu h2 {
+.article h2 {
     padding-top: 3%; 
 }
 
-.autrePerso p, .autrePerso h2, .Popu p, .Popu h2 {
+.article p, .article h2 {
     padding-left: 10%;
     padding-right: 10%;
 }
