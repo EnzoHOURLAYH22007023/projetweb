@@ -3,6 +3,33 @@ body {
     background-size: cover;
 }
 
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #ffd700;
+}
+
+.menu a {
+    min-width: 15%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 300%;
+    border-bottom: solid 5px;
+    border-color: transparent;
+}
+
+.menu a:hover {
+    border-color: white;
+}
+
+#active {
+    color: black;
+    box-shadow: 5px 6px 7px;
+}
+
 .prez {
     display: flex;
     flex-direction: column;
@@ -161,4 +188,12 @@ h1 {
     .ligne{
         flex-direction: column;
     }
+    
+    .menu a {
+        font-size: 160%;;
+    }
+
+    .back_arrow {
+        opacity: 0;
+        }
 }
