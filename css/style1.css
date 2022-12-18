@@ -29,29 +29,29 @@ body {
     font-size: 300%;
 }
 
-.menu a.accueil{
+.menu a.Maccueil{
     background-image: url("../img/luffist_static.png");
 }
 
-.menu a.accueil:hover {
+.menu a.Maccueil:hover {
     background-image: url("../img/luffist.gif");
 }
 
-.menu a.sondage {
+.menu a.Msondage {
     background-image: url("../img/OPGOLD_static.png");
 }
 
-.menu a.sondage:hover {
+.menu a.Msondage:hover {
     background-image: url("../img/OPGOLD.gif");
     background-size: cover;
 }
 
-.menu a.theories {
+.menu a.Mtheories {
     background: url("../img/nono_static.png") center;
     background-size: cover;
 }
 
-.menu a.theories:hover {
+.menu a.Mtheories:hover {
     background: url("../img/nono.gif") center;
     background-size: cover;
 }
